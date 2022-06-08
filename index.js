@@ -9,7 +9,7 @@ inquirer
     {
         type: 'input',
         message: 'What is the title of your application?',
-        name: 'project title',
+        name: 'title',
     },
     {
         type: 'input',
@@ -20,6 +20,31 @@ inquirer
         type: 'input',
         message: 'What is the usage of this application?',
         name: 'usage',
+    },
+    {
+        type: 'input',
+        message: 'What are the names of the contributors to this application (if applicable)?',
+        name: 'credits',
+    },
+    {
+        type: 'input',
+        message: 'How can someone contribute to this application?',
+        name: 'contribution',
+    },
+    {
+        type: 'input',
+        message: 'What is your github username?',
+        name: 'username',
+    },
+    {
+        type: 'input',
+        message: 'What is your email?',
+        name: 'email',
+    },
+    {
+        type: 'input',
+        message: 'What would you like to call this document?',
+        name: 'filename',
     },
 ]);
 
