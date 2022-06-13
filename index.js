@@ -17,14 +17,15 @@ inquirer
         name: 'description',
     },
     {
-        type: 'input',
-        message: 'What is the usage of this application?',
-        name: 'usage',
+        type: 'list',
+        message: "Choose a license for your project.",
+        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License',  'Mozilla Public License 2.0', 'The Unlicense'],
+        name: 'license',
     },
     {
         type: 'input',
-        message: 'What are the names of the contributors to this application (if applicable)?',
-        name: 'credits',
+        message: 'What is the usage of this application?',
+        name: 'usage',
     },
     {
         type: 'input',
@@ -33,8 +34,13 @@ inquirer
     },
     {
         type: 'input',
+        message: 'How should a user test this application?',
+        name: 'tests',
+    },
+    {
+        type: 'input',
         message: 'What is your github username?',
-        name: 'username',
+        name: 'github',
     },
     {
         type: 'input',
