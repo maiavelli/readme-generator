@@ -107,6 +107,9 @@ function generateMarkdown(data) {
 
   ${data.tests}
 
+  ## License
+  ${renderLicenseLink(data.license)}
+
   ## Questions
 
   For more information and to see more of my work, please visit my GitHub: [${data.github}](https://github.com/${data.github}/)
