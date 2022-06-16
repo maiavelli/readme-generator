@@ -29,19 +29,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === licenseArr[1]) {
-    return `![License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
+    return `[License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (license === licenseArr[2]) {
-    return `![License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)`
+    return `[License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)`
   }
   else if (license === licenseArr[3]) {
-    return `![License: MIT](https://opensource.org/licenses/MIT)`
+    return `[License: MIT](https://opensource.org/licenses/MIT)`
   }
   else if (license === licenseArr[4]) {
-    return `![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
+    return `[License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
   }
   else if (license === licenseArr[5]) {
-    return `![License: Unlicense](http://unlicense.org/)`
+    return `[License: Unlicense](http://unlicense.org/)`
   }
   else {
     return ''
@@ -114,7 +114,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  For more information and to see more of my work, please visit my GitHub: (https://github.com/${data.github}/)
+  For more information and to see more of my work, please visit my GitHub: https://github.com/${data.github}/
 
   For any additional questions, you can contact me at ${data.email}.
 `;

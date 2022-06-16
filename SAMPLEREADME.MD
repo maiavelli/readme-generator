@@ -26,8 +26,8 @@
   There are no current tests for this application.
 
   ## License
-    This application is licensed under the MIT License. You may not use this file except in compliance with this license.
-    ![License: MIT](https://opensource.org/licenses/MIT)
+  This application is licensed under the MIT License. You may not use this file except in compliance with this license.
+  [License: MIT](https://opensource.org/licenses/MIT)
 
   ## Questions
 
