@@ -50,12 +50,7 @@ const questions = [
         type: 'input',
         message: 'What is your email?',
         name: 'email',
-    },
-    {
-        type: 'input',
-        message: 'What would you like to call this file?',
-        name: 'filename',
-    },
+    }
 ];
 
 
